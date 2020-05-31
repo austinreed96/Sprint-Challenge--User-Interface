@@ -1,95 +1,22 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -153,7 +80,11 @@ p {
 }
 
 hr {
+<<<<<<< HEAD
   border-top: 1px dashed;
+=======
+    border-top: 1px dashed;
+>>>>>>> b8484ab935bb2d33a5cf03fc6da6fe5f69b69a36
 }
 .container {
   width: 800px;
@@ -174,6 +105,7 @@ hr {
   margin-bottom: 20px;
 }
 
+<<<<<<< HEAD
 nav a {
   text-decoration: none;
   color: black;
@@ -182,6 +114,30 @@ nav a {
 
 .top-image {
   margin-bottom: 20px;
+=======
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.contact-image {
+    width: 800px;
+    height: 154px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin: 0 35px;
+}
+
+.top-image {
+    margin-bottom: 20px;
+>>>>>>> b8484ab935bb2d33a5cf03fc6da6fe5f69b69a36
 }
 .top-content {
   display: flex;
@@ -238,6 +194,47 @@ input {
   margin-bottom: 20px;
 }
 
+.top-about {
+    margin-left: 15px;
+}
+
+.middle-about {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 890px;
+    justify-content: space-evenly;
+}
+
+.about-box {
+    width: 350px;
+    margin: 0 10px 10px 10px;
+    border-bottom: 1px dashed black;
+    padding: 20px 0;
+}
+
+.about-box h2 {
+    margin-top: 10px;
+}
+
+button {
+    border: 1.2px solid black;
+    background: white;
+    border-radius: 8px;
+    padding: 8px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
 .middle-content {
   margin-bottom: 20px;
   border-bottom: 1px dashed black;
@@ -255,6 +252,7 @@ input {
 }
 
 .middle-content .boxes .box {
+<<<<<<< HEAD
   width: 12.5%;
   height: 100px;
   margin: 20px 2.5%;
@@ -302,6 +300,56 @@ input {
 
 .box10 {
   background-color: dodgerblue;
+=======
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+>>>>>>> b8484ab935bb2d33a5cf03fc6da6fe5f69b69a36
+}
+
+
+.box1 {
+    background: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -319,7 +367,11 @@ input {
 }
 
 .bottom-about {
+<<<<<<< HEAD
   margin: 20px 0px 20px 15px;
+=======
+    margin: 20px 0px 20px 15px;
+>>>>>>> b8484ab935bb2d33a5cf03fc6da6fe5f69b69a36
 }
 footer {
   width: 100%;
@@ -336,6 +388,13 @@ footer nav {
 }
 
 footer nav a {
+<<<<<<< HEAD
   color: white;
   text-decoration: none;
 }
+=======
+    color: white;
+    text-decoration: none;
+}
+
+>>>>>>> b8484ab935bb2d33a5cf03fc6da6fe5f69b69a36

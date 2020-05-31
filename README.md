@@ -40,7 +40,7 @@ I would tell the cohort of students that semantic HTML essentialy gives meaning 
 
 the content edge, the padding edge, the border edge, and the margin
 
-3. While using flexbox, what axis does the following property work on: `align-items: center`?
+3. While using flexbox, what axis does the following property work on: `align-items: center` ! ?
 
 the cross axis
 

@@ -339,3 +339,10 @@ footer nav a {
   color: white;
   text-decoration: none;
 }
+@media (max-width: 500 px) {
+  .header {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}

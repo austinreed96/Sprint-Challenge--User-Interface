@@ -80,11 +80,7 @@ p {
 }
 
 hr {
-<<<<<<< HEAD
-  border-top: 1px dashed;
-=======
     border-top: 1px dashed;
->>>>>>> b8484ab935bb2d33a5cf03fc6da6fe5f69b69a36
 }
 .container {
   width: 800px;
@@ -105,16 +101,6 @@ hr {
   margin-bottom: 20px;
 }
 
-<<<<<<< HEAD
-nav a {
-  text-decoration: none;
-  color: black;
-  margin: 0 35px;
-}
-
-.top-image {
-  margin-bottom: 20px;
-=======
 .navigation {
     display: flex;
     justify-content: space-between;
@@ -137,7 +123,6 @@ nav a {
 
 .top-image {
     margin-bottom: 20px;
->>>>>>> b8484ab935bb2d33a5cf03fc6da6fe5f69b69a36
 }
 .top-content {
   display: flex;
@@ -252,55 +237,6 @@ input {
 }
 
 .middle-content .boxes .box {
-<<<<<<< HEAD
-  width: 12.5%;
-  height: 100px;
-  margin: 20px 2.5%;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.box1 {
-  background: teal;
-}
-
-.box2 {
-  background-color: gold;
-}
-
-.box3 {
-  background-color: cadetblue;
-}
-
-.box4 {
-  background-color: coral;
-}
-
-.box5 {
-  background-color: crimson;
-}
-
-.box6 {
-  background-color: forestgreen;
-}
-
-.box7 {
-  background-color: darkorchid;
-}
-
-.box8 {
-  background-color: hotpink;
-}
-
-.box9 {
-  background-color: indigo;
-}
-
-.box10 {
-  background-color: dodgerblue;
-=======
     width: 12.5%;
     height: 100px;
     margin: 20px 2.5%;
@@ -308,7 +244,6 @@ input {
     display: flex;
     align-items: center;
     justify-content: center;
->>>>>>> b8484ab935bb2d33a5cf03fc6da6fe5f69b69a36
 }
 
 
@@ -367,11 +302,7 @@ input {
 }
 
 .bottom-about {
-<<<<<<< HEAD
-  margin: 20px 0px 20px 15px;
-=======
     margin: 20px 0px 20px 15px;
->>>>>>> b8484ab935bb2d33a5cf03fc6da6fe5f69b69a36
 }
 footer {
   width: 100%;
@@ -388,13 +319,7 @@ footer nav {
 }
 
 footer nav a {
-<<<<<<< HEAD
-  color: white;
-  text-decoration: none;
-}
-=======
     color: white;
     text-decoration: none;
 }
 
->>>>>>> b8484ab935bb2d33a5cf03fc6da6fe5f69b69a36

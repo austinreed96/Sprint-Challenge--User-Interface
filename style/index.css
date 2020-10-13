@@ -1,95 +1,22 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -153,7 +80,7 @@ p {
 }
 
 hr {
-  border-top: 1px dashed;
+    border-top: 1px dashed;
 }
 .container {
   width: 800px;
@@ -174,14 +101,28 @@ hr {
   margin-bottom: 20px;
 }
 
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.contact-image {
+    width: 800px;
+    height: 154px;
+    margin-bottom: 20px;
+}
+
 nav a {
-  text-decoration: none;
-  color: black;
-  margin: 0 35px;
+    text-decoration: none;
+    color: black;
+    margin: 0 35px;
 }
 
 .top-image {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 .top-content {
   display: flex;
@@ -238,6 +179,47 @@ input {
   margin-bottom: 20px;
 }
 
+.top-about {
+    margin-left: 15px;
+}
+
+.middle-about {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 890px;
+    justify-content: space-evenly;
+}
+
+.about-box {
+    width: 350px;
+    margin: 0 10px 10px 10px;
+    border-bottom: 1px dashed black;
+    padding: 20px 0;
+}
+
+.about-box h2 {
+    margin-top: 10px;
+}
+
+button {
+    border: 1.2px solid black;
+    background: white;
+    border-radius: 8px;
+    padding: 8px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
 .middle-content {
   margin-bottom: 20px;
   border-bottom: 1px dashed black;
@@ -255,53 +237,54 @@ input {
 }
 
 .middle-content .boxes .box {
-  width: 12.5%;
-  height: 100px;
-  margin: 20px 2.5%;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+
 .box1 {
-  background: teal;
+    background: teal;
 }
 
 .box2 {
-  background-color: gold;
+    background-color: gold;
 }
 
 .box3 {
-  background-color: cadetblue;
+    background-color: cadetblue;
 }
 
 .box4 {
-  background-color: coral;
+    background-color: coral;
 }
 
 .box5 {
-  background-color: crimson;
+    background-color: crimson;
 }
 
 .box6 {
-  background-color: forestgreen;
+    background-color: forestgreen;
 }
 
 .box7 {
-  background-color: darkorchid;
+    background-color: darkorchid;
 }
 
 .box8 {
-  background-color: hotpink;
+    background-color: hotpink;
 }
 
 .box9 {
-  background-color: indigo;
+    background-color: indigo;
 }
 
 .box10 {
-  background-color: dodgerblue;
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -319,7 +302,7 @@ input {
 }
 
 .bottom-about {
-  margin: 20px 0px 20px 15px;
+    margin: 20px 0px 20px 15px;
 }
 footer {
   width: 100%;
@@ -336,13 +319,88 @@ footer nav {
 }
 
 footer nav a {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
-@media (max-width: 500 px) {
-  .header {
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
+@media (max-width: 500px){
+  .container{
+      width: 500px;
+  }
+  .navigation{
+      flex-flow: column wrap;
+      align-items: center;
+  }
+  .item{
+      padding: 2px;
+  }
+  #header-image{
+      width: 500px;
+  }
+  .top-content{
+      flex-direction: column;
+      align-items: center;
+  }
+  .middle-content{
+      border-bottom: 0px;
+  }
+  .middle-content h2{
+      text-align: center;
+  }
+  .middle-content .boxes{
+      flex-flow: column wrap;
+      align-items: center;
+  }
+  .middle-content .boxes .box{
+      margin-top: 5px;
+      margin-bottom: 5px;
+      width: 20%;
+  }
+  .bottom-content{
+      flex-flow: column wrap;
+      align-content: flex-start;
+      padding: 10%;
+  }
+  .bottom-content .text-container {
+      padding-right: 0%;
+      padding-bottom: 4%;
+  }
+  footer nav{
+      flex-direction: column;
+      width: 100%;
+  }
+  footer nav a{
+      padding: 5px;
+      font-size: larger;
   }
 }
+@media (max-width: 800px){
+  .top-content{
+      flex-direction: column;
+  }
+  .top-content .text-container{
+      width: 100%;
+  }
+  .middle-content .boxes{
+      width: 30%;
+      align-content: center;
+      flex-grow: initial;
+      align-content: center;
+      margin: 0px 250px;
+  }
+  .middle-content .boxes .box{
+      padding:50px;
+      margin: 10px 2.5%;
+  }
+  .bottom-content{
+      align-items: center;
+      align-content: center;
+  }
+  .bottom-content .text-container:last-child{
+      align-self: flex-start;
+  }
+  
+  footer nav{
+      padding: 20px 4%;
+      align-content: center;
+      margin: 0px 100px;
+  }
